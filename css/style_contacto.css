@@ -1,0 +1,110 @@
+html, body{
+  background-image: url("../images/rest2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-x: hidden;
+  background-blend-mode: color-burn;
+}
+a{
+  text-decoration: none;
+}
+
+.titulo{
+margin: 3%;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+
+.control-label{
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  color: white;
+}
+
+.btn {
+  margin-right: 3%;
+}
+
+
+footer{
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  color: white;
+  float: left;
+  bottom: 5px;
+  left: 5px;
+  font-size: 1em;
+  position: absolute;
+}
+
+
+.contenedor{
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+
+}
+table{
+  margin: auto;
+  padding: 5px;
+}
+
+
+input, select, textarea {
+    font-size: inherit;
+    line-height: inherit;
+    color: black;
+}
+textarea{
+  resize: none;
+}
+td{
+  text-align: left;
+  padding: 2px;
+}
+input{
+  float: right;
+  border:ridge;
+}
+.grupobotones{
+margin-left:39%;
+}
+
+.boton{
+  float: left;
+  margin-left: 10px;
+    color: white;
+    background-color: #5f6769;
+    display: inline-block;
+    padding: 6px 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+@media (max-height: 600px) {
+  footer{
+    opacity: 0;
+  }
+}

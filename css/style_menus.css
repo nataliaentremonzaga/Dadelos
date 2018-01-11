@@ -1,0 +1,140 @@
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
+.titulo{
+  padding-top: 10%;
+  float: center!important;
+}
+
+ a:hover {
+    color: #23527c;
+}
+
+.title{
+  font-family: 'Kaushan Script', cursive;
+  color: white;
+  font-size: 10em;
+  text-align: center;
+}
+
+.title:hover{
+  color: #fcef62;
+  cursor: auto;
+  background: none;
+}
+
+.display-1, {
+  text-align: center!important;
+  margin: auto!important;
+  font-size: 10000px!important;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+.display-2 {
+  text-align: center;
+  margin: auto;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  font-size: 40px;
+  color: white;
+}
+
+.display-3 {
+  text-align: center;
+  margin: auto;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  font-size: 25px;
+  color: white;
+}
+
+.display-4 {
+  text-align: center;
+  margin: auto;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  font-size: 23px;
+  color: white;
+}
+
+.display-5 {
+  text-align: center;
+  margin: auto;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  font-size: 20px;
+  color: white;
+}
+
+table{
+  margin-right: 7%;
+  margin-left: 7%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+td{
+  text-align: center;
+}
+
+img {
+    border-radius: 12%;
+    max-width: 80%;
+    height: auto;
+}
+
+.parallax1, .parallax2, .parallax3, .parallax4, .parallax5 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Kaushan Script', cursive;
+}
+.parallax1{
+  align-items: center;
+  background-image: url("../images/food1.jpg");
+  min-height: 100%;
+}
+
+.parallax2{
+  background-image: url("../images/food2.jpg");
+  min-height: 100%;
+}
+
+.parallax3 {
+  background-image: url("../images/food3.jpg");
+  min-height: 100%;
+}
+
+.parallax4 {
+  background-image: url("../images/food4.jpg");
+  min-height: 100%;
+}
+
+.parallax5 {
+  background-image: url("../images/food10.jpg");
+  min-height: 100%;
+}
+
+ .Parrafo {
+  background-color: #5f6769;
+  font-family: 'PT Sans Narrow', sans-serif;
+  position : relative;
+  margin: 0;
+ }
+
+footer{
+  padding-top: 3%;
+}
+
+ @media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}

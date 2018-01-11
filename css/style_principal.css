@@ -1,0 +1,87 @@
+html, body{
+  background-image: url("../images/rest1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 18px;
+
+}
+
+
+.titulo{
+margin: 3%;
+}
+
+.logo {
+  font-family: 'Kaushan Script', cursive;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  color: white;
+  font-size: 140px;
+  text-align: center;
+  margin: auto;
+
+
+}
+
+.info{
+  font-family: 'Kaushan Script', cursive;
+  text-shadow: 8px 8px 8px rgba(0, 0, 0, 1);
+  color: white;
+  text-align: left;
+  margin: auto;
+  width: 700px;
+  font-size: 1.1em;
+}
+
+.display-4 {
+  text-align: center;
+  margin: auto;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  font-size: 23px;
+  color: white;
+}
+
+.display-5 {
+  text-align: center;
+  margin: auto;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  font-size: 20px;
+  color: white;
+}
+
+.col-sm-4{
+  text-decoration: none;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: white;
+}
+
+
+.footer{
+  position: fixed;
+  bottom: 0 !important;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: white;
+  height:
+}
+footer{
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  color: white;
+  float: left;
+  bottom: 5px;
+  left: 5px;
+  font-size: 0.9em;
+  position: absolute;
+}
